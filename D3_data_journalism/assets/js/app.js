@@ -235,21 +235,21 @@ var povertyLabel = xLabelsGroup.append("text")
  .attr("value", "poverty")
  .text("Poverty Rate (%)");
 
-var ageLabel = xLabelsGroup.append("text")
+ var incomeLabel = xLabelsGroup.append("text")
  .classed("aText", true)
  .classed("inactive", true)
  .attr("x", 0)
  .attr("y", 40)
- .attr("value", "age")
- .text("Median Age")
+ .attr("value", "income")
+ .text("Median Household Income")
 
-var incomeLabel = xLabelsGroup.append("text")
+var ageLabel = xLabelsGroup.append("text")
  .classed("aText", true)
  .classed("inactive", true)
  .attr("x", 0)
  .attr("y", 60)
- .attr("value", "income")
- .text("Median Household Income")
+ .attr("value", "age")
+ .text("Median Age")
 
 //create group for 3 y-axis labels
 var yLabelsGroup = chartGroup.append("g")
